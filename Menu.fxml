@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+      <VBox alignment="CENTER" layoutX="139.0" layoutY="47.0" prefHeight="307.0" prefWidth="323.0" spacing="20.0">
+         <children>
+            <Button fx:id="consulteDoc" mnemonicParsing="false" onAction="#Consuldossier" prefHeight="25.0" prefWidth="333.0" stylesheets="@Menu.css" text="CONSULTER DOSSIER MEDICAL" />
+            <Button fx:id="AjouterPat" mnemonicParsing="false" onAction="#AddPatient" prefHeight="25.0" prefWidth="428.0" text="AJOUTER UN PATIENT" />
+            <Button fx:id="EffectCons" mnemonicParsing="false" onAction="#EffectConsul" prefHeight="25.0" prefWidth="332.0" text="EFFECTUER UNE CONSULTATION" />
+            <Button fx:id="ConsResult" mnemonicParsing="false" onAction="#ConsulResultat"  prefHeight="25.0" prefWidth="376.0" text="CONSULTER LES RESULTATS DES EXAMENS" />
+            <Button fx:id="ProdOrd" mnemonicParsing="false" onAction="#ProdOrdonnance"  prefHeight="25.0" prefWidth="335.0" text="PRODUIRE UNE ORDONNANCE" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

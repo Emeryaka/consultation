@@ -1,0 +1,34 @@
+#menuContainer {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+#consultButton {
+    -fx-background-color: #4CAF50; /* Vert */
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+}
+
+#addPatientButton {
+    -fx-background-color: #FFC107; /* Jaune */
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+}
+
+#consultationButton {
+    -fx-background-color: #2196F3; /* Bleu */
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+}
+
+#examResultsButton {
+    -fx-background-color: #E91E63; /* Rose */
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+}
+
+#prescriptionButton {
+    -fx-background-color: #9C27B0; /* Violet */
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+}
